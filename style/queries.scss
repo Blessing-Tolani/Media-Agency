@@ -175,7 +175,14 @@
    .article img.dot6{
        display:none;
    
-}
+    }
+    #buttondiv{
+        position: absolute;
+        text-align: center;
+        display:flex;
+        align-items: end;
+        height:150px;
+    }
   
     
     
