@@ -76,160 +76,77 @@
   left: 400px;
 }
 
-@-webkit-keyframes spin {
-  0% {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
-  }
-  100% {
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
-  }
-}
-
 @keyframes spin {
   0% {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
+    transform: rotate(0deg);
   }
   100% {
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
-  }
-}
-
-@-webkit-keyframes bounce {
-  from {
-    -webkit-transform: translate3d(0, 0, 0);
-            transform: translate3d(0, 0, 0);
-  }
-  to {
-    -webkit-transform: translate3d(0, 30px, 0);
-            transform: translate3d(0, 30px, 0);
+    transform: rotate(360deg);
   }
 }
 
 @keyframes bounce {
   from {
-    -webkit-transform: translate3d(0, 0, 0);
-            transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
   }
   to {
-    -webkit-transform: translate3d(0, 30px, 0);
-            transform: translate3d(0, 30px, 0);
-  }
-}
-
-@-webkit-keyframes horizontalmove {
-  from {
-    -webkit-transform: translate3d(0, 0, 0);
-            transform: translate3d(0, 0, 0);
-  }
-  to {
-    -webkit-transform: translate3d(30px, 0px, 0);
-            transform: translate3d(30px, 0px, 0);
+    transform: translate3d(0, 30px, 0);
   }
 }
 
 @keyframes horizontalmove {
   from {
-    -webkit-transform: translate3d(0, 0, 0);
-            transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
   }
   to {
-    -webkit-transform: translate3d(30px, 0px, 0);
-            transform: translate3d(30px, 0px, 0);
-  }
-}
-
-@-webkit-keyframes verticalmove {
-  from {
-    -webkit-transform: translate3d(0, 0, 0);
-            transform: translate3d(0, 0, 0);
-  }
-  to {
-    -webkit-transform: translate3d(0px, 30px, 0);
-            transform: translate3d(0px, 30px, 0);
+    transform: translate3d(30px, 0px, 0);
   }
 }
 
 @keyframes verticalmove {
   from {
-    -webkit-transform: translate3d(0, 0, 0);
-            transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
   }
   to {
-    -webkit-transform: translate3d(0px, 30px, 0);
-            transform: translate3d(0px, 30px, 0);
-  }
-}
-
-@-webkit-keyframes zoominout {
-  from {
-    -webkit-transform: scale(0.5);
-            transform: scale(0.5);
-  }
-  to {
-    -webkit-transform: scale(1.5);
-            transform: scale(1.5);
+    transform: translate3d(0px, 30px, 0);
   }
 }
 
 @keyframes zoominout {
   from {
-    -webkit-transform: scale(0.5);
-            transform: scale(0.5);
+    transform: scale(0.5);
   }
   to {
-    -webkit-transform: scale(1.5);
-            transform: scale(1.5);
-  }
-}
-
-@-webkit-keyframes zoominout1 {
-  from {
-    -webkit-transform: scale(0.5);
-            transform: scale(0.5);
-  }
-  to {
-    -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1.5);
   }
 }
 
 @keyframes zoominout1 {
   from {
-    -webkit-transform: scale(0.5);
-            transform: scale(0.5);
+    transform: scale(0.5);
   }
   to {
-    -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
   }
 }
 
 .triangle1, .triangle2, .triangle3 {
-  -webkit-animation: spin 3000ms linear infinite;
-          animation: spin 3000ms linear infinite;
+  animation: spin 3000ms linear infinite;
 }
 
 .shape1, .shape2 {
-  -webkit-animation: bounce 1s infinite alternate;
-          animation: bounce 1s infinite alternate;
+  animation: bounce 1s infinite alternate;
 }
 
 .dot1, .dot6 {
-  -webkit-animation: horizontalmove 1s infinite alternate;
-          animation: horizontalmove 1s infinite alternate;
+  animation: horizontalmove 1s infinite alternate;
 }
 
 .dot2, .dot4 {
-  -webkit-animation: zoominout 4000ms infinite alternate;
-          animation: zoominout 4000ms infinite alternate;
+  animation: zoominout 4000ms infinite alternate;
 }
 
 .dot3, .dot5 {
-  -webkit-animation: zoominout1 4000ms infinite alternate;
-          animation: zoominout1 4000ms infinite alternate;
+  animation: zoominout1 4000ms infinite alternate;
 }
 /*# sourceMappingURL=animation.css.map */

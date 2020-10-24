@@ -5,7 +5,8 @@
 }
 
 html{
-    background-image: radial-gradient(ellipse, #010039 70%,  #191820 95%);
+    background-color: hsl(208, 43, 83);
+    //background-image: radial-gradient(ellipse, #010039 70%,  #191820 95%);
     background-repeat: no-repeat;
     background-size: cover;
     
@@ -46,11 +47,11 @@ html,body{
     padding:10px ;
     width:200px;
     text-align: center;
-    border:1px solid white;
+    border:1px solid #191820;
     border-radius:0.5em;
     cursor:pointer;
     background-color:transparent;
-    color:white;
+    color:#191820;
     font-weight:900;
     font-size: 16px;
     &:hover{
@@ -78,7 +79,7 @@ html,body{
     div{
     width:25px;
     height:3px;
-    background-color: white;
+    background-color: #191820;
     margin:5px;
     transition: all 0.3s ease;
 }
@@ -87,7 +88,8 @@ html,body{
 .companyname{
     font-size: 22px;
     letter-spacing: 2px;
-    color:white;
+    color:#191820;
+    font-weight: 900;
 }
 
 .grid-container {
@@ -120,7 +122,7 @@ html,body{
     width:60%;
     a{
         text-decoration: none;
-        color:white;
+        color:#191820;
         font-weight: bold;
         &:hover{
             color: #353936;
@@ -134,6 +136,7 @@ html,body{
 .layer{
      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
      font-size: 30px;
+     color:#191820;
  }
 @keyframes navLinkFade {
     from {
@@ -159,7 +162,7 @@ html,body{
 
 #foot{
     text-align: center;
-    color:white;
+    color:#191820;
     font-family: 'ABeeZee';
     font-size: 0.9em;
     margin: 20px;
@@ -167,6 +170,6 @@ html,body{
 }
 .foot{
     padding:0px 3px;
-    border-right:thin solid white;
-    border-left:thin solid white;
+    border-right:thin solid #191820;
+    border-left:thin solid #191820;
 }
