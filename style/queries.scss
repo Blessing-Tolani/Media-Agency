@@ -35,7 +35,7 @@
             }
         }
     }
-    .article img.triangle1 {
+    .article .img.triangle1 {
        display:none;
     }
     .dot4{
@@ -45,8 +45,7 @@
         animation: zoominout1 4000ms infinite alternate;
         
     } 
-   
-  
+    
 }
 @media screen and (max-width:600px){
     body{
@@ -91,34 +90,38 @@
       
     }
     
-    
+    @keyframes blink{
+        from{
+            clip-path: circle(0px);
+        }
+        to{
+            clip-path: circle(145px);
+        }
+    }
     .image{
-        height:313px;
-        width:470px;
-        margin:0 auto;
-        background-image: url("/images/image.jpeg");
-        background-size: cover; 
+        
         clip-path: circle(145px);
-        z-index:1;
     }
 
 }
 @media  screen and (max-width:500px){
+    @keyframes blink{
+        from{
+            transform: scale(0);
+            clip-path: none;
+        }
+        to{
+            transform: scale(1);
+            clip-path: none;
+        }
+    }
     .image{
-
-        margin:0 auto;
-        width:90%;
-        height:90%;
-        position: relative;
-        top:70%;
-        
-        transform:translateY(-50%);
-        background-image: url("/images/image2.jpeg");
-        background-repeat: no-repeat;
-        background-size: contain;
+        height:199px;
+        width:300px;
         clip-path: none;
         
     }
+
     .main {
         img {
         position:absolute;
@@ -164,7 +167,7 @@
         animation: zoominout 4000ms infinite alternate;
     }
    
-    .article img.dot5{
+    .article .img.dot5{
         position:absolute;
         top:40px;
         left:10%;
@@ -172,7 +175,7 @@
     .main img.shape2, .article img.triangle3, .article img.dot2{
         display: none;
     }
-   .article img.dot6{
+   .article .img.dot6{
        display:none;
    
     }
@@ -187,19 +190,35 @@
     
     
 }
-@media screen and (max-width:300px){
+@media screen and (max-width:320px){
     .dot1{
         display:none;
         
     }
-    .article img.dot5{
+    .article .img.dot5{
         position:absolute;
-        top:30px;
+        top:20px;
         left:10%;
     }
-    .main img.triangle2 {
-        position:absolute;
-        top:170px;
-        left:90%;
+    .main {
+        img{
+            &.triangle2 {
+            position:absolute;
+            top:170px;
+            left:90%;
+            }
+            &.shape1 {
+                width:40px;
+                height:30px;
+            }
+        }
+    }
+    @keyframes bounce {
+        from {
+            transform: translate3d(0,0,0);
+        }
+        to{
+            transform: translate3d(0, 10px, 0);
+        }
     }
 }

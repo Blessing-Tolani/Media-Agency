@@ -46,31 +46,31 @@
   left: 90%;
 }
 
-.article img {
+.article .img {
   position: absolute;
   top: 80px;
   left: 200px;
 }
 
-.article img.dot5 {
+.article .img.dot5 {
   position: absolute;
   top: 220px;
   left: 80%;
 }
 
-.article img.triangle3 {
+.article .img.triangle3 {
   position: absolute;
   top: 150px;
   left: 95%;
 }
 
-.article img.dot6 {
+.article .img.dot6 {
   position: relative;
   top: 250px;
   left: 5%;
 }
 
-.article img.dot2 {
+.article .img.dot2 {
   position: absolute;
   top: 200px;
   left: 400px;
@@ -130,6 +130,15 @@
   }
 }
 
+@keyframes blink {
+  from {
+    clip-path: circle(0px);
+  }
+  to {
+    clip-path: circle(160px);
+  }
+}
+
 .triangle1, .triangle2, .triangle3 {
   animation: spin 3000ms linear infinite;
 }
@@ -149,4 +158,3 @@
 .dot3, .dot5 {
   animation: zoominout1 4000ms infinite alternate;
 }
-/*# sourceMappingURL=animation.css.map */

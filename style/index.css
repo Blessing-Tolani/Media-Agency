@@ -97,21 +97,22 @@ html, body {
   display: grid;
   grid-template-columns: auto;
   grid-template-rows: 70px 150px auto 50px;
-  grid-gap: 10px;
   height: 100%;
+}
+
+.imagecontainer {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .image {
   height: 313px;
   width: 470px;
-  margin: 0 auto;
-  background-image: url("/images/image.jpeg");
-  background-size: cover;
   clip-path: circle(160px);
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
   z-index: 1;
+  animation: blink 4s;
 }
 
 .nav-links {

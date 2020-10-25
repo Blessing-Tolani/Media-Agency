@@ -24,6 +24,11 @@ const navSlide = () => {
 navSlide();
 
 
-
+gsap.from('.group',{
+    opacity:0,
+    duration:1,
+    y:-100,
+    stagger:0.6
+})
 
 
