@@ -26,19 +26,19 @@ html, body {
   height: 100%;
 }
 
-#buttondiv {
-  position: absolute;
-  text-align: center;
-  display: flex;
-  align-items: end;
-  height: 150px;
-}
-
 .buttonlink {
   text-decoration: none;
 }
 
+.topic {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  margin-top: 35px;
+}
+
 .typetwo {
+  margin-top: 30px;
   font-family: 'Open Sans', sans-serif;
   padding: 10px;
   width: 200px;
@@ -112,7 +112,7 @@ html, body {
   width: 470px;
   clip-path: circle(160px);
   z-index: 1;
-  animation: blink 4s;
+  animation: blink 5s;
 }
 
 .nav-links {
@@ -129,8 +129,8 @@ html, body {
 }
 
 .nav-links a:hover {
-  color: #353936;
-  border-bottom: 2px dashed #353936;
+  color: #4e534f;
+  border-bottom: 2px dashed #4e534f;
   padding-bottom: 10px;
   font-size: 15px;
 }
@@ -152,15 +152,15 @@ html, body {
   }
 }
 
-.toggle .line1 {
+.newclass .line1 {
   transform: rotate(-45deg) translate(-5px, 6px);
 }
 
-.toggle .line2 {
+.newclass .line2 {
   opacity: 0;
 }
 
-.toggle .line3 {
+.newclass .line3 {
   transform: rotate(45deg) translate(-5px, -6px);
 }
 

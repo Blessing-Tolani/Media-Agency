@@ -16,7 +16,7 @@ const navSlide = () => {
         })
 
 
-        burger.classList.toggle("toggle");
+        burger.classList.toggle("newclass");
     });
 
     
@@ -26,9 +26,9 @@ navSlide();
 
 gsap.from('.group',{
     opacity:0,
-    duration:1,
+    duration:3,
     y:-100,
-    stagger:0.6
+    stagger:1
 })
 
 
