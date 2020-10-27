@@ -57,6 +57,7 @@ html,body{
     color:#191820;
     font-weight:900;
     font-size: 16px;
+    outline:none;
     &:hover{
     box-shadow: 3px 3px 11px 0px rgba(0, 0, 0, 0.7);
     transform: translate(5px,-5px);
@@ -140,6 +141,7 @@ html,body{
             padding-bottom: 10px;
             font-size: 15px;
         }
+        
     }
 
 }

@@ -50,6 +50,7 @@ html, body {
   color: #191820;
   font-weight: 900;
   font-size: 16px;
+  outline: none;
 }
 
 .typetwo:hover {

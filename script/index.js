@@ -27,7 +27,7 @@ navSlide();
 gsap.from('.group',{
     opacity:0,
     duration:3,
-    y:-100,
+    y:-5,
     stagger:1
 })
 
