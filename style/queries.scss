@@ -58,7 +58,7 @@
         right:0px;
         height: 70vh;
         top: 70px;
-        width:200px;
+        width:250px;
         display: flex;
         flex-direction: column;
         transform: translateY(100vh);
@@ -70,11 +70,27 @@
             a{
                 color:#191820;
             }
+            &:hover{
+                .firstnav{
+                    padding-left:40%;
+                }
+                width:100%;
+                .sub-menu-1{
+                    width:100%;
+                    ul{
+                        li{
+                            width:100%;
+                            padding:20px;
+                            border-bottom:none;
+                        }
+                    }
+                }
+            }
         }
-       
        
       
     }
+    
     
     .layer{
         font-size:17px;

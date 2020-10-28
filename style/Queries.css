@@ -52,7 +52,7 @@
     right: 0px;
     height: 70vh;
     top: 70px;
-    width: 200px;
+    width: 250px;
     display: flex;
     flex-direction: column;
     transform: translateY(100vh);
@@ -65,6 +65,20 @@
   }
   .nav-links li a {
     color: #191820;
+  }
+  .nav-links li:hover {
+    width: 100%;
+  }
+  .nav-links li:hover .firstnav {
+    padding-left: 40%;
+  }
+  .nav-links li:hover .sub-menu-1 {
+    width: 100%;
+  }
+  .nav-links li:hover .sub-menu-1 ul li {
+    width: 100%;
+    padding: 20px;
+    border-bottom: none;
   }
   .layer {
     font-size: 17px;
