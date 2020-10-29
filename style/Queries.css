@@ -69,16 +69,20 @@
   .nav-links li:hover {
     width: 100%;
   }
-  .nav-links li:hover .firstnav {
-    padding-left: 40%;
+  .nav-links li:hover .leap {
+    transform: translateY(-150%);
+  }
+  .nav-links li:hover .leap1 {
+    transform: translateY(-100%);
   }
   .nav-links li:hover .sub-menu-1 {
     width: 100%;
   }
   .nav-links li:hover .sub-menu-1 ul li {
     width: 100%;
-    padding: 20px;
-    border-bottom: none;
+  }
+  .nav-links li:hover .firstnav {
+    padding-left: 40%;
   }
   .layer {
     font-size: 17px;

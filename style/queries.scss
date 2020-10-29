@@ -51,7 +51,7 @@
     body{
   
     overflow: hidden;
-}
+    }
     
     .nav-links {
         position: absolute;
@@ -67,28 +67,33 @@
         z-index: 20;
         li{
             opacity:0;
+            
+            
             a{
                 color:#191820;
             }
             &:hover{
-                .firstnav{
-                    padding-left:40%;
-                }
                 width:100%;
+                .leap{
+                    transform:translateY(-150%);
+                }
+                .leap1{
+                    transform:translateY(-100%);
+                }
                 .sub-menu-1{
                     width:100%;
                     ul{
                         li{
+                            
                             width:100%;
-                            padding:20px;
-                            border-bottom:none;
                         }
                     }
                 }
+                .firstnav{
+                    padding-left:40%;
+                }
             }
-        }
-       
-      
+        } 
     }
     
     
