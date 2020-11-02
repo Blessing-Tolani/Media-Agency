@@ -21,8 +21,6 @@ nav{
     align-items: center;
     min-height: 70px;
    font-family: 'ABeeZee', sans-serif;
-  
-    
 }
 
 
@@ -87,13 +85,36 @@ html,body{
 }
 .burger {
     display:none;
+    background-color: #e8e8e8;
+    border-radius: 50%;
+    padding: 10px;
+    
     div{
-    width:25px;
-    height:3px;
-    background-color: #191820;
-    margin:5px;
-    transition: all 0.3s ease;
-}
+        background-color: #191820;
+        margin: 5px;
+        transition: all 0.3s ease;
+        
+      
+    }
+    .line1{
+        width:20px;
+        height:2px;
+        margin-left:8px;
+       
+        
+   
+    }
+    .line2{
+        width:25px;
+        height:2px;
+    }
+    .line3{
+        width:17px;
+        height:2px;
+        margin-left:10px;
+    }
+   
+
 }
 
 .companyname{
@@ -101,10 +122,9 @@ html,body{
     letter-spacing: 2px;
     color:#191820;
     font-weight: 900;
-  
 }
 
-.grid-container {
+.grid-container{
    width: 100%;
     display:grid;
     grid-template-columns: auto;
@@ -148,27 +168,6 @@ html,body{
         padding:15px;
         background-color:#e8e8e8;
         z-index:50;
-
-        .sub-menu-1{
-            display:block;
-            position:absolute;
-            margin-top:15px;
-            margin-left:-15px;
-            font-size: 14px; 
-            background-color:rgb(166, 198, 226);
-           
-            ul{
-                li{
-                    width:190px;
-                    padding:20px;
-                    border-bottom:none;
-                }
-                .lispe{
-                    width:250px;
-                    padding:23px;
-                }
-            }
-        }
         .firstnav{
             color:#191820;
             font-size: 14px; 
@@ -184,9 +183,6 @@ html,body{
      color:#191820;
     
 }
-.sub-menu-1{
-    display:none;
-}
 @keyframes navLinkFade {
     from {
         opacity:0;
@@ -198,15 +194,8 @@ html,body{
     }
 }
 .newclass {
-    .line1 {
-    transform: rotate(-45deg) translate(-5px, 6px);
-    }
-    .line2 {
-        opacity:0;
-    }
-    .line3 {
-        transform: rotate(45deg) translate(-5px, -6px);
-    }
+    background-color: #9c2c67;
+   
 }
 
 #foot{

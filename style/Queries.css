@@ -47,7 +47,7 @@
   body {
     overflow: hidden;
   }
-  .nav-links {
+  .nav-links, .nav-links1 {
     position: absolute;
     right: 0px;
     height: 70vh;
@@ -60,28 +60,22 @@
     background-color: #fbfeff;
     z-index: 20;
   }
-  .nav-links li {
+  .nav-links li, .nav-links1 li {
     opacity: 0;
   }
-  .nav-links li a {
+  .nav-links li a, .nav-links1 li a {
     color: #191820;
   }
-  .nav-links li:hover {
+  .nav-links li:hover, .nav-links1 li:hover {
     width: 100%;
   }
-  .nav-links li:hover .leap {
-    transform: translateY(-150%);
-  }
-  .nav-links li:hover .leap1 {
-    transform: translateY(-100%);
-  }
-  .nav-links li:hover .sub-menu-1 {
+  .nav-links li:hover .sub-menu-1, .nav-links1 li:hover .sub-menu-1 {
     width: 100%;
   }
-  .nav-links li:hover .sub-menu-1 ul li {
+  .nav-links li:hover .sub-menu-1 ul li, .nav-links1 li:hover .sub-menu-1 ul li {
     width: 100%;
   }
-  .nav-links li:hover .firstnav {
+  .nav-links li:hover .firstnav, .nav-links1 li:hover .firstnav {
     padding-left: 40%;
   }
   .layer {

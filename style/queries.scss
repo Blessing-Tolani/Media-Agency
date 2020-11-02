@@ -53,7 +53,7 @@
     overflow: hidden;
     }
     
-    .nav-links {
+    .nav-links, .nav-links1 {
         position: absolute;
         right:0px;
         height: 70vh;
@@ -74,12 +74,6 @@
             }
             &:hover{
                 width:100%;
-                .leap{
-                    transform:translateY(-150%);
-                }
-                .leap1{
-                    transform:translateY(-100%);
-                }
                 .sub-menu-1{
                     width:100%;
                     ul{
