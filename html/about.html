@@ -37,13 +37,13 @@
         <div class = "grid-items null"></div>
 
         <div class = "grid-items heading">
-            <div class = "text">
-                <h1>Bring <span>Joy</span> and <span>Happiness</span> to your Business</h1>
-                <p>Doing business without advertising is like winking at a girl in the dark.<br>
+            <div class = "text text0">
+                <h1 class = "come" >Bring <span>Joy</span> and <span>Happiness</span> to your Business</h1>
+                <p  class = "come">Doing business without advertising is like winking at a girl in the dark.<br>
                     You know what you are doing but nobody else does.</p>
-                <button>Say Hello</button>
+                <button  class = "come">Say Hello</button>
             </div>
-            <div class = "image">
+            <div class = "image image0">
                 <img src = "/images/joy1.jpg" class = "headingimg"  width="400px" height = "300px">
             </div>
             
@@ -51,10 +51,10 @@
 
         <div class = "grid-items aboutus">
             
-            <div class = "image">
+            <div class = "image image1">
                 <img src = "/images/aboutus1.jpg" class = "aboutusimg"  width="500px" height = "300px">
             </div>
-            <div class = "text">
+            <div class = "text text1">
                 <h1>About Us</h1>
                 <p>We are a team of creative people committed to help business and 
                     brands make their products and services visible to customers and intending customers. 
@@ -64,11 +64,11 @@
         </div>
 
         <div class = "grid-items mission">
-            <div class = "text">
+            <div class = "text text2">
                 <h1>Mission</h1>
                 <p>To prevent business and brands from winking in the dark </p>
             </div>
-            <div class = "image">
+            <div class = "image image2">
                 <img src = "/images/mission.jpg" width="300px" height = "300px">
             </div>
          
@@ -77,17 +77,17 @@
 
         <div class = "grid-items vision">
             
-            <div class = "image">
+            <div class = "image image3">
                 <img src = "/images/vision.jpg" class = "visionimg"  width="500px" height = "300px">
             </div>
-            <div class = "text">
+            <div class = "text text3">
                 <h1>Vision</h1>
                 <p>To be among the leading multimedia company in Nigeria </p>
             </div>
         </div>
 
 
-        <div   class = "grid-items design">
+        <div class = "grid-items design">
            <img src = "/images/design.svg" class = "design1">
           <div id = "countee">
               <span id = "count1"></span>Years of Operation
@@ -110,5 +110,124 @@
     </div>
     <script src="/script/about.js"></script>
     <script src = "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <script src = "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js" ></script>
+    <script>
+        gsap.from('.text0', {
+
+        scrollTrigger:{
+            trigger:'.heading',
+            start:"top center"
+        },
+        opacity:0, 
+        duration:1, 
+        y:100, 
+        stagger:0.6
+    })
+        gsap.from('.image0',{
+        scrollTrigger:{
+            trigger:'.heading',
+            start:"top center"
+        },
+        duration:1,
+        x:100,
+        opacity:0,
+       
+    })
+        
+        gsap.from('.text1', {
+
+        scrollTrigger:{
+            trigger:'.aboutus',
+            start:"top 45%"
+        },
+        opacity:0, 
+        duration:1, 
+        y:100, 
+        stagger:0.6
+    })
+        gsap.from('.image1',{
+        scrollTrigger:{
+            trigger:'.aboutus',
+            start:"top 45%"
+        },
+        duration:1,
+        x:100,
+        opacity:0,
+       
+    })
+    gsap.from('.text2', {
+
+        scrollTrigger:{
+            trigger:'.mission',
+            start:"top 45%"
+        },
+        opacity:0, 
+        duration:1, 
+        y:100, 
+        stagger:0.6
+    })
+        gsap.from('.image2',{
+        scrollTrigger:{
+            trigger:'.mission ',
+            start:"top 45%"
+        },
+        duration:1,
+        x:100,
+        opacity:0,
+       
+    })
+    gsap.from('.text3', {
+
+        scrollTrigger:{
+            trigger:'.vision',
+            start:"top 45%"
+        },
+        opacity:0, 
+        duration:1, 
+        y:100, 
+        stagger:0.6
+    })
+        gsap.from('.image3',{
+        scrollTrigger:{
+            trigger:'.vision',
+            start:"top 45%"
+        },
+        duration:1,
+        x:100,
+        opacity:0,
+       
+    })
+       gsap.from('#countee', {
+
+        scrollTrigger:{
+            trigger:'.design',
+            start:"top 40%"
+        },
+        opacity:0, 
+        duration:1, 
+        y:100, 
+        stagger:0.6
+    })
+        gsap.from('.design1',{
+        scrollTrigger:{
+            trigger:'.design',
+            start:"top 40%"
+        },
+        duration:1,
+        x:-100,
+        opacity:0,
+       
+    })
+    gsap.from('.design2',{
+        scrollTrigger:{
+            trigger:'.design',
+            start:"top 40%"
+        },
+        duration:1,
+        x:100,
+        opacity:0,
+       
+    })
+    </script>
 </body>
 </html>
