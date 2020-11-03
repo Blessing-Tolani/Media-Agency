@@ -79,6 +79,10 @@ ul {
   border-left: thin solid #191820;
 }
 
+.header {
+  z-index: 50;
+}
+
 .nav-links {
   display: flex;
   justify-content: space-around;

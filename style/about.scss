@@ -73,7 +73,9 @@ padding-top:2px;
     border-right:thin solid #191820;
     border-left:thin solid #191820;
 }
-
+.header{
+    z-index:50;
+}
 .nav-links{
     display:flex;
     justify-content: space-around;
@@ -111,6 +113,7 @@ padding-top:2px;
     float: left;
     text-align: center;
 }
+
 .text{
     padding:0px 10px;
     font-family: 'Lato', sans-serif;
@@ -154,6 +157,7 @@ padding-top:2px;
         
     }
 }
+
 .design, .footer{
     background-color: #d5e4ff;
     //background-color: #eef4ff;
