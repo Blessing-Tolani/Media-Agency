@@ -24,8 +24,9 @@ ul {
 #countee {
   position: absolute;
   text-align: center;
-  left: 50%;
-  transform: translateX(-50%);
+  width: 100%;
+  top: 50%;
+  transform: translateY(-50%);
   letter-spacing: 0.1em;
   font-family: 'Nunito', sans-serif;
 }
@@ -46,6 +47,7 @@ ul {
   position: relative;
   padding-top: 20px;
   padding-bottom: 50px;
+  z-index: -1;
 }
 
 .design1 {
@@ -118,6 +120,7 @@ ul {
 }
 
 .text {
+  padding: 0px 10px;
   font-family: 'Lato', sans-serif;
 }
 
