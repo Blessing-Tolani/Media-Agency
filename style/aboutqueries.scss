@@ -1,4 +1,7 @@
 @media screen and (max-width:900px){
+    .design1, .design2{
+        display:none;
+    }
     .aboutusimg{
         width:400px;
         height:300px;
@@ -13,12 +16,16 @@
         width:350px;
         height:300px;
     }
+    .counteein{
+        display: block;
+      
+        
+    }
     
 }
 @media screen and (max-width:700px){
-    h1.come{
-        padding-top:0px;
-    }
+   
+    
     .aboutus > div, .mission > div, .vision > div ,.heading > div{
         width:100%;
        
@@ -41,8 +48,12 @@
 
 
 @media screen and (max-width:600px){
-    .design > img{
-        visibility:hidden;
+    
+    
+    .counteein{
+        display: block;
+        padding:20px;
+        
     }
     .visionimg{
         width:300px;
@@ -96,6 +107,16 @@
       
     }
 }
+@media screen and (max-width:550px){
+    .counteein{
+        display: block;
+        
+    }
+    .cone{
+       padding-top:0px;
+    }
+}
+
 @media screen and (max-width:400px){
     .aboutusimg{
         width:100%;

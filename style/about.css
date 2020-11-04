@@ -22,31 +22,30 @@ ul {
 }
 
 #countee {
-  position: absolute;
   text-align: center;
   width: 100%;
-  top: 50%;
-  transform: translateY(-50%);
   letter-spacing: 0.1em;
   font-family: 'Nunito', sans-serif;
 }
 
+.counteein {
+  display: inline-block;
+  padding: 30px;
+}
+
 #count1, #count2, #count3 {
   display: block;
-  padding: 30px 0px 10px;
   font-size: 30px;
   color: blue;
   font-weight: bolder;
 }
 
-#count1 {
-  padding-top: 2px;
+.fa-cog, .fa-users, .fa-cubes {
+  color: blue;
 }
 
 .design {
   position: relative;
-  padding-top: 20px;
-  padding-bottom: 50px;
   z-index: -1;
 }
 
@@ -129,7 +128,7 @@ ul {
 }
 
 .text h1 {
-  padding: 50px 0px 20px;
+  padding: 50px 0px 10px;
   color: blue;
 }
 
