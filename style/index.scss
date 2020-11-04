@@ -161,6 +161,9 @@ html,body{
         text-decoration: none;
         color:#191820;
         font-weight: bold;
+        &:hover{
+            background-color: transparent;
+        }
     }
     li:hover{
         color:#191820;

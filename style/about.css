@@ -96,6 +96,10 @@ ul {
   font-weight: bold;
 }
 
+.nav-links a:hover {
+  background-color: transparent;
+}
+
 .nav-links li:hover {
   color: #191820;
   width: 110px;
