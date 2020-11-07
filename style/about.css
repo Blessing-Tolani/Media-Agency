@@ -45,7 +45,6 @@ ul {
 }
 
 .design {
-  position: relative;
   z-index: -1;
 }
 
@@ -94,10 +93,6 @@ ul {
   text-decoration: none;
   color: #191820;
   font-weight: bold;
-}
-
-.nav-links a:hover {
-  background-color: transparent;
 }
 
 .nav-links li:hover {

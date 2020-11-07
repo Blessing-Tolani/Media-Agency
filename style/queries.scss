@@ -53,7 +53,7 @@
     overflow: hidden;
     }
     
-    .nav-links, .nav-links1 {
+    .nav-links {
         position: absolute;
         right:0px;
         height: 70vh;
@@ -74,15 +74,6 @@
             }
             &:hover{
                 width:100%;
-                .sub-menu-1{
-                    width:100%;
-                    ul{
-                        li{
-                            
-                            width:100%;
-                        }
-                    }
-                }
                 .firstnav{
                     padding-left:40%;
                 }

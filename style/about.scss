@@ -41,9 +41,6 @@ ul{
     
 }
 .design{
-    position:relative;
-    //padding-top: 20px;
-    //padding-bottom: 50px;
     z-index: -1;   
 }
 .design1{
@@ -86,9 +83,7 @@ ul{
         text-decoration: none;
         color:#191820;
         font-weight: bold;
-        &:hover{
-            background-color: transparent;
-        }
+
     }
     li:hover{
         color:#191820;
