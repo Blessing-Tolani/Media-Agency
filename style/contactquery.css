@@ -53,7 +53,6 @@
     height: 70vh;
     top: 70px;
     width: 250px;
-    
     flex-direction: column;
     display:none;
     transition: transform 0.5s ease-in;
@@ -84,9 +83,7 @@
     box-shadow: 0px 4px 8px 100vw rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
     display:flex;
   }
-    body {
-      overflow-x: hidden;
-    }
+   
    
     
 }

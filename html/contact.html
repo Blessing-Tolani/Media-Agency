@@ -35,7 +35,7 @@
         },
         opacity:0,
         duration:2,
-        x:500,
+        y:500,
        
       })
       gsap.from(".text",{
@@ -45,7 +45,7 @@
         },
         opacity:0,
         duration:2,
-        x:-500,
+        y:500,
         delay:2
       })
       gsap.from(".cont",{
@@ -56,7 +56,8 @@
         opacity:0,
         duration:1,
         y:100,
-        stagger:0.6
+        stagger:0.6,
+        delay:2
       })
       gsap.from(".fab",{
         scrollTrigger:{
@@ -67,7 +68,7 @@
         duration:1,
         y:100,
         stagger:0.5,
-        delay:2
+        delay:4
       })
     </script>
   </body>
