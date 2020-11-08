@@ -1,4 +1,9 @@
 @media screen and (max-width:900px){
+  .nav-links {
+    
+    width: 70%;
+   
+  }
   #main > div > div{
     width:100%;
     float:none;
@@ -46,7 +51,15 @@
     
   }
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 700px) {
+  #contact{
+    width:100%;
+  }
+  #socialmedia{
+    width:40%;
+  }
+}
+@media screen and (max-width: 600px) {
   .nav-links {
     position: absolute;
     right: 0px;
@@ -87,14 +100,7 @@
    
     
 }
-@media screen and (max-width: 700px) {
-  #contact{
-    width:100%;
-  }
-  #socialmedia{
-    width:40%;
-  }
-}
+
 @media screen and (max-width:500px){
   img{
     width: 100%;

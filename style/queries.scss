@@ -9,6 +9,9 @@
     }
 }
 @media  screen and (max-width:900px){
+    .nav-links {
+        width: 70%;
+    }
     .main{
         img{
             &.shape2 {
@@ -80,7 +83,14 @@
             }
         } 
     }
-    
+    @keyframes bounce {
+        from {
+            transform: translate3d(0,0,0);
+        }
+        to{
+            transform: translate3d(0, 10px, 0);
+        }
+    }
     
     .layer{
         font-size:17px;
@@ -127,15 +137,7 @@
         clip-path: none;
         
     }
-    @keyframes bounce {
-        from {
-            transform: translate3d(0,0,0);
-        }
-        to{
-            transform: translate3d(0, 20px, 0);
-        }
-    }
-
+    
     .main {
         img {
         position:absolute;
@@ -227,12 +229,5 @@
             }
         }
     }
-    @keyframes bounce {
-        from {
-            transform: translate3d(0,0,0);
-        }
-        to{
-            transform: translate3d(0, 10px, 0);
-        }
-    }
+   
 }
