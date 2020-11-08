@@ -83,14 +83,7 @@
             }
         } 
     }
-    @keyframes bounce {
-        from {
-            transform: translate3d(0,0,0);
-        }
-        to{
-            transform: translate3d(0, 10px, 0);
-        }
-    }
+  
     
     .layer{
         font-size:17px;
@@ -172,7 +165,7 @@
             }
             &.shape1 {
                 position:absolute;
-                top:100%;
+                top:110%;
                 left:45%;
                 width:60px;
                 height:40px;
