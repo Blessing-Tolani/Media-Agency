@@ -113,6 +113,14 @@
     width: 300px;
     clip-path: none;
   }
+  @keyframes bounce {
+    from {
+      transform: translate3d(0, 0, 0);
+    }
+    to {
+      transform: translate3d(0, 20px, 0);
+    }
+  }
   .main img {
     position: absolute;
     top: 30px;
