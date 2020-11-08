@@ -114,17 +114,7 @@ html, body {
   
   
 }
-.grid-items{
- 
-}
-/* #main{
-  position:relative;
-}
-#maininner{
-  position:absolute;
-  top:50%;
-  transform: translateY(-50%);
-} */
+
 .nav-links {
   display: flex;
   justify-content: space-around;
@@ -198,6 +188,7 @@ input{
 }
 
 textarea{
+  font-weight:900;
   color:#053d59;
   font-family: 'ABeeZee';
   border:1px solid #f3f3f3;
@@ -207,6 +198,7 @@ textarea{
   margin-bottom:40px;
   width:350px;
   height:120px;
+  font-size: 14px;
 }
 .text{
   text-align: center;
