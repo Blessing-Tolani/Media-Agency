@@ -63,20 +63,19 @@
     background-color: #fbfeff;
     z-index: 20;
   }
+  .nav-links a:hover {
+    width: 0px;
+    background: none;
+    z-index: 50;
+    transition: none;
+    color: #800020;
+    font-size: 14px;
+  }
   .nav-links li {
     opacity: 0;
   }
-  .nav-links li a {
-    color: #191820;
-  }
-  .nav-links li:hover {
-    width: 100%;
-  }
-  .nav-links li:hover .firstnav {
-    padding-left: 40%;
-  }
   .layer {
-    font-size: 17px;
+    font-size: 20px;
     text-align: center;
   }
   .burger {
@@ -97,6 +96,9 @@
   }
   .image {
     clip-path: circle(145px);
+  }
+  .companyname {
+    font-size: 20px;
   }
 }
 

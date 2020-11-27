@@ -1,97 +1,194 @@
 
 
-
-function NavBar(){
-    return(
-        <nav>
-            <div className ="companyname">
-                <h4>Aha Media</h4>
-            </div>
-            <ul className ="nav-links">
-                <li><a className ="firstnav"  target = "_blank" href = "/index.html"><i className  = "fas fa-home"></i>Home</a></li>
-                <li><a className ="firstnav" target = "_blank"  href = "/html/about.html"><i className  = "fas fa-user"></i>Profile</a></li>
-                <li><a className ="firstnav"  target = "_blank" href = "#"><i className  = "fas fa-clone"></i>Services</a> </li>
-                <li><a className ="firstnav" target = "_blank"  href = "#"><i className  = "fas fa-tag"></i>Pricing</a></li>
-                <li><a className ="firstnav" target = "_blank"  href = "/html/contact.html"><i className  = "fas fa-phone"></i>Contact</a></li>
-            
-            </ul>
-            <div className  = "burger">
-                <div className ="line1"></div>
-                <div className ="line2"></div>
-                <div className ="line3"></div>
-            </div>
-        </nav>
-    )
+function NavBar() {
+    return React.createElement(
+        "nav",
+        null,
+        React.createElement(
+            "div",
+            { className: "companyname" },
+            React.createElement(
+                "h4",
+                null,
+                "Aha Media"
+            )
+        ),
+        React.createElement(
+            "ul",
+            { className: "nav-links" },
+            React.createElement(
+                "li",
+                null,
+                React.createElement(
+                    "a",
+                    { className: "firstnav", href: "/index.html" },
+                    "Home"
+                )
+            ),
+           
+            React.createElement(
+                "li",
+                null,
+                React.createElement(
+                    "a",
+                    { className: "firstnav", href: "services.html" },
+                 
+                    "Services"
+                ),
+                " "
+            ),
+            React.createElement(
+                "li",
+                null,
+                React.createElement(
+                    "a",
+                    { className: "firstnav",  href: "#" },
+                  
+                    "Pricing"
+                )
+            ),
+            React.createElement(
+                "li",
+                null,
+                React.createElement(
+                    "a",
+                    { className: "firstnav",  href: "#" },
+                 
+                    "Contact"
+                )
+            )
+        ),
+        React.createElement(
+            "div",
+            { className: "burger" },
+            React.createElement("div", { className: "line1" }),
+            React.createElement("div", { className: "line2" }),
+            React.createElement("div", { className: "line3" })
+        )
+    );
 }
 
-function Form(){
-    return(
-        <div id = "maininner">
-            <div className = "text">
-                <h2  id = "touch">Let's get in touch</h2>
-                <form>
-                    <input type = "text" placeholder="Name" required/>
-                    <input type="email" id="email" name="email" placeholder= "Email Address" required pattern = "^([a-zA-Z0-9_\.]+)@([a-zA-Z0-9_\.]+)\.([A-Za-z]{3})$" />
-                    <input type = "website" placeholder="Website(Optional)"/>
-                    <textarea placeholder = "Message" id = "message" />
-                    <button type="submit" id = "button">Send <i className = "far fa-arrow-alt-circle-right"></i></button>
-                </form>
-            </div>
-            <div className = "picture">
-                <img src = "/images/contact2.jpg" />
-            </div>
-        </div>
-    )
+function Form() {
+    return React.createElement(
+        "div",
+        { id: "maininner" },
+        React.createElement(
+            "div",
+            { className: "text" },
+            React.createElement(
+                "h2",
+                { id: "touch" },
+                "Let's get in touch"
+            ),
+            React.createElement(
+                "form",
+                null,
+                React.createElement("input", { type: "text", placeholder: "Name", required: true }),
+                React.createElement("input", { type: "email", id: "email", name: "email", placeholder: "Email Address", required: true, pattern: "^([a-zA-Z0-9_\\.]+)@([a-zA-Z0-9_\\.]+)\\.([A-Za-z]{3})$" }),
+                React.createElement("input", { type: "website", placeholder: "Website(Optional)" }),
+                React.createElement("textarea", { placeholder: "Message", id: "message" }),
+                React.createElement(
+                    "button",
+                    { type: "submit", id: "button" },
+                    "Send ",
+                    React.createElement("i", { className: "far fa-arrow-alt-circle-right" })
+                )
+            )
+        ),
+        React.createElement(
+            "div",
+            { className: "picture" },
+            React.createElement("img", { src: "/images/contact2.jpg" })
+        )
+    );
 }
-function Article(){
-    return(
-        <div id = "contact" >
-            <div className = "cont" ><i className = "fas fa-map-marker-alt"></i><p className = "contact" >Location</p></div>
-            <div className = "cont" ><i className = "fas fa-phone-alt"></i><p className = "contact" >Number</p></div>
-            <div className = "cont" ><i className = "far fa-envelope"></i><p className = "contact" >Email Address</p></div>
-        </div>
-    )
+function Article() {
+    return React.createElement(
+        "div",
+        { id: "contact" },
+        React.createElement(
+            "div",
+            { className: "cont" },
+            React.createElement("i", { className: "fas fa-map-marker-alt" }),
+            React.createElement(
+                "p",
+                { className: "contact" },
+                "Location"
+            )
+        ),
+        React.createElement(
+            "div",
+            { className: "cont" },
+            React.createElement("i", { className: "fas fa-phone-alt" }),
+            React.createElement(
+                "p",
+                { className: "contact" },
+                "Number"
+            )
+        ),
+        React.createElement(
+            "div",
+            { className: "cont" },
+            React.createElement("i", { className: "far fa-envelope" }),
+            React.createElement(
+                "p",
+                { className: "contact" },
+                "Email Address"
+            )
+        )
+    );
 }
-function SocialMedia(){
-    return(
-        <div id = "socialmedia">
-            <a><i className = "fab fa-facebook-f"></i></a>
-            <a><i className = "fab fa-twitter"></i></a>
-            <a><i className = "fab fa-instagram"></i></a>
-           <a><i className = "fab fa-linkedin-in"></i></a> 
-        </div>
-    )
+function SocialMedia() {
+    return React.createElement(
+        "div",
+        { id: "socialmedia" },
+        React.createElement(
+            "a",
+            null,
+            React.createElement("i", { className: "fab fa-facebook-f" })
+        ),
+        React.createElement(
+            "a",
+            null,
+            React.createElement("i", { className: "fab fa-twitter" })
+        ),
+        React.createElement(
+            "a",
+            null,
+            React.createElement("i", { className: "fab fa-instagram" })
+        ),
+        React.createElement(
+            "a",
+            null,
+            React.createElement("i", { className: "fab fa-linkedin-in" })
+        )
+    );
 }
-ReactDOM.render(<NavBar/>, document.getElementById("header"));
-ReactDOM.render(<Form/>, document.getElementById("main"));
-ReactDOM.render(<Article/>, document.getElementById("article"));
-ReactDOM.render(<SocialMedia/>, document.getElementById("article2"));
+ReactDOM.render(React.createElement(NavBar, null), document.getElementById("header"));
+ReactDOM.render(React.createElement(Form, null), document.getElementById("main"));
+ReactDOM.render(React.createElement(Article, null), document.getElementById("article"));
+ReactDOM.render(React.createElement(SocialMedia, null), document.getElementById("article2"));
 
 
 
-   
-const NavSlide = () => {
-    
-    const burger = document.querySelector(".burger");
-    const nav = document.querySelector(".nav-links");
-    const navlinks = document.querySelectorAll(".nav-links li");
+var NavSlide = function NavSlide() {
 
-    burger.addEventListener("click", () => {
+    var burger = document.querySelector(".burger");
+    var nav = document.querySelector(".nav-links");
+    var navlinks = document.querySelectorAll(".nav-links li");
+
+    burger.addEventListener("click", function () {
         nav.classList.toggle("nav-active");
-        
-        navlinks.forEach((link,index) => {
-            if(link.style.animation){
-                link.style.animation = '';
-            }
-            else{
-                link.style.animation = `navLinkFade 0.5s ease forwards ${index/7}s`
-            }
-        })
 
+        navlinks.forEach(function (link, index) {
+            if (link.style.animation) {
+                link.style.animation = '';
+            } else {
+                link.style.animation = "navLinkFade 0.5s ease forwards " + index / 7 + "s";
+            }
+        });
 
         burger.classList.toggle("newclass");
     });
-
-    
-}
+};
 NavSlide();

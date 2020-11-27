@@ -68,25 +68,27 @@
         transition:transform 0.5s ease-in;
         background-color:#fbfeff;
         z-index: 20;
+        a{
+           
+            &:hover{
+                width:0px;
+                background:none;
+                z-index:50;
+                transition:none;
+                color:#800020;
+                font-size:14px;
+                
+            }
+        }
         li{
             opacity:0;
-            
-            
-            a{
-                color:#191820;
-            }
-            &:hover{
-                width:100%;
-                .firstnav{
-                    padding-left:40%;
-                }
-            }
         } 
+        
     }
   
     
     .layer{
-        font-size:17px;
+        font-size:20px;
         text-align: center;
     }
     .burger{
@@ -111,6 +113,13 @@
         
         clip-path: circle(145px);
     }
+    .companyname {
+   
+        font-size: 20px;
+        
+        
+      }
+    
 
 }
 @media  screen and (max-width:500px){

@@ -1,0 +1,197 @@
+@media screen and (max-width:1000px){
+#about > div > div{
+  float:none;
+ 
+  width:100%;
+}
+
+#abt{
+    padding:120px 40px 0px;
+}
+#features > div {
+    border-radius: 2em;
+    width: 100%;
+    float: none;
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+
+  #aside {
+    //text-align: center;
+    padding:30px;
+  }
+  .one {
+      margin-top:0px;
+     
+   
+  }
+  .two{
+      margin-top:70px;
+  }
+  .three {
+   margin-top: 70px;
+  }
+#fullvideo{
+    text-align:center;
+  }
+
+#collage {
+   display:none;
+  }
+
+#training > div {
+    float: none;
+    padding-bottom: 0px;
+  }
+  #train {
+    width: 100%;
+    text-align: center;
+    padding: 100px 50px 30px;
+  }
+#main, #main2{
+    text-align:center;
+}
+#main > div > div, #main2 > div > div {
+    width: 500px;
+    background: white;
+    margin: 5% auto;
+  }
+ 
+}
+
+
+
+@media screen and (max-width:800px){
+    .nav-links {
+        position: absolute;
+        right:0px;
+        height: 70vh;
+        top: 70px;
+        width:250px;
+        display: none;
+        flex-direction: column;
+  
+        transition:transform 0.5s ease-in;
+        background-color:#fbfeff;
+        z-index: 20;
+        a{
+            color:#191820;
+            &:hover{
+                width:0px;
+                background:none;
+                z-index:50;
+                transition:none;
+                color:#800020;
+                font-size:14px;
+                
+            }
+        }
+       
+    }
+    .burger{
+        display:block;
+        cursor:pointer;
+    }
+    .nav-active{
+       
+     
+        display: flex;
+      
+    }
+    .newclass{
+        background-color:#800020;
+        
+    } 
+}
+
+@media screen and (max-width:600px){
+   
+      #grid-container {
+       
+        grid-template-rows: 400px auto auto auto auto auto 50px;
+     
+      }
+      
+#abt{
+    padding:50px 40px 0px;
+}
+#vii {
+    width: 500px;
+    height: 400px;
+  }
+  .item-title {
+   
+    font-size: 1.6rem;
+  }
+  .companyname {
+   
+    font-size: 25px;
+    
+    
+  }
+
+}
+@media screen and (max-width:500px){
+    #grid-container {
+       
+        grid-template-rows: 350px auto auto auto auto auto 50px;
+     
+      }
+      #abt {
+        h1{
+            font-size:22px;
+        }
+      }
+      .item-title {
+   
+        font-size: 1.4rem;
+      }
+      .head {
+       
+        font-size: 20px;
+      }
+    
+#serve {
+    padding-top: 40px;
+   
+    font-size: 20px;
+    text-align: center;
+  }
+      
+    #vii {
+        width: 90%;
+        height: 300px;
+      }
+      #main > div > div, #main2 > div > div {
+      
+        width: 90%;
+        margin: 10% auto;
+       
+      }
+      #box{
+        display:flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+       // background-color: yellow;
+        margin-top:20px;
+        >div{
+            margin:10px;
+        }
+      }
+  
+   
+    #aside {
+        //text-align: center;
+        padding:20px;
+      }
+#help {
+   
+    font-size: 20px;
+    
+    padding: 60px 0px 0px 7%;
+    line-height: 1.2;
+  }
+}
+
+
+

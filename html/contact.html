@@ -3,11 +3,11 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>React App</title>
+    <title>Contact us</title>
     <script src = "https://kit.fontawesome.com/a076d05399.js"></script>
     <link rel = "stylesheet" href = "/style/contact.css" type = "text/css">
     <link rel = "stylesheet" href = "/style/contactquery.css" type = "text/css">
-    <link href="https://fonts.googleapis.com/css2?family=ABeeZee&family=Lato:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=ABeeZee&family=Lato&display=swap" rel="stylesheet">
     <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script> 
     <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
   </head>
@@ -15,9 +15,9 @@
         
     <div id="grid-container">
         <div id = "header" class ="grid-items"></div>
-        <div id = "main" className="grid-items"></div>
-        <div id = "article" className="grid-items"></div>
-        <div id = "article2" className="grid-items"></div>
+        <div id = "main" class ="grid-items"></div>
+        <div id = "article" class ="grid-items"></div>
+        <div id = "article2" class ="grid-items"></div>
     </div>
         
 
@@ -48,27 +48,26 @@
         y:500,
         delay:2
       })
-      gsap.from(".cont",{
+      gsap.from("#contact",{
         scrollTrigger:{
             trigger:'#contact',
             start:"top 80%"
         },
         opacity:0,
         duration:1,
-        y:100,
-        stagger:0.6,
-        delay:1
+        y:100
+      
       })
-      gsap.from(".fab",{
+      gsap.from("#socialmedia",{
         scrollTrigger:{
-            trigger:'#socialmedia',
+            trigger:'#article2',
             start:"top 80%"
         },
         opacity:0,
         duration:1,
         y:100,
-        stagger:0.5,
-        delay:2
+  
+      delay:1
       })
     </script>
   </body>
